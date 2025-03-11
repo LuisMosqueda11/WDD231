@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Overview of HTML, CSS, and JavaScript fundamentals.">
+    <meta name="author" content="Luis Carlo Mosqueda Avila">
+    <title>WDD 131 - Dynamic Web Fundamentals</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="principal_header">
+            <div class="photo">
+                <img src="images/me.png" alt="Luis Mosqueda">
+            </div>
+            <h1>Luis Carlo Mosqueda Avila</h1>    
+        </div>    
+        <button class="hamburger-menu" aria-label="Open Menu">☰</button>
+        <nav class="sub-header">
+            <ul>
+                <li><a href="#" target="_blank">Home</a></li>
+                <li><a href="#" target="_blank">Chamber</a></li>
+                <li><a href="https://github.com/LuisMosqueda11" target="_blank">Github Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/luis-mosqueda-646b392b8/">linkedin</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main class="container">
+        <section class="card card-web-resources">
+            <h2 class="card-header">Web Dev Resources</h2>
+            <ul>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+                <li><a href="#" target="_blank"></a></li>
+            </ul>
+        </section>
+
+        <section class="card card-country">
+            <h2 class="card-header">Tijuana, Mexico</h2>
+            <div class="country-content">
+                <img src="images/mexico.jpeg" alt="Tijuana, Mexico">
+                <p>Mexico</p>
+            </div>
+        </section>
+
+        <section class="card card-course">
+            <h2 class="card-header">Web and Computer Programming Certificate</h2>
+            <div class="course-buttons">
+                <button id="all-courses">All</button>
+                <button id="cse-courses">CSE</button>
+                <button id="wdd-courses">WDD</button>
+            </div>
+            <div id="course-list" class="course-grid">
+                <div class="course-card">CSE 110</div>
+                <div class="course-card">WDD 130</div>
+                <div class="course-card">CSE 111</div>
+                <div class="course-card completed">CSE 210</div>
+                <div class="course-card">WDD 131</div>
+                <div class="course-card completed">WDD 231</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span></p>
+        <p>Luis Carlo Mosqueda, Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
